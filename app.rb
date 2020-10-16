@@ -22,5 +22,6 @@ class App < Sinatra::Base
   get "/multiply/:num1/:num2" do 
     @last_response = params[:num1, :num2]
     "#{@last_response}"
+  end 
 
 end
